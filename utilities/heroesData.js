@@ -12,7 +12,7 @@ const heroesData = [
             "Symmetra",
             "Reaper"
         ],
-        "healer": [
+        "support": [
             "Moira",
             "Brigitte"
         ]
@@ -28,7 +28,7 @@ const heroesData = [
             "Pharah",
             "Mei"
         ],
-        "healer": [
+        "support": [
             "Ana",
             "Brigitte"
         ]
@@ -45,7 +45,7 @@ const heroesData = [
             "Soldier:76",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             "Ana",
             "Baptiste",
             "Zenyatta"
@@ -61,7 +61,7 @@ const heroesData = [
             "Bastion",
             "Genji"
         ],
-        "healer": [
+        "support": [
             "Ana",
             "Kiriko"
         ]
@@ -82,7 +82,7 @@ const heroesData = [
             "Soldier:76",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             "Ana",
             "Kiriko",
             "Zenyatta",
@@ -104,7 +104,7 @@ const heroesData = [
             "Symmetra",
             "Tracer"
         ],
-        "healer": [
+        "support": [
             "Zenyatta",
             "Kiriko"
         ]
@@ -122,7 +122,7 @@ const heroesData = [
             "Sombra",
             "Tracer"
         ],
-        "healer": [
+        "support": [
             "Ana",
             "Brigitte"
         ]
@@ -142,7 +142,7 @@ const heroesData = [
             "Tracer",
             "Widomaker"
         ],
-        "healer": [
+        "support": [
             "Ana"
         ]
     },
@@ -157,7 +157,7 @@ const heroesData = [
             "Symmetra",
             "Tracer"
         ],
-        "healer": [
+        "support": [
             "Lucio",
             "Moira"
         ]
@@ -172,7 +172,7 @@ const heroesData = [
             "Bastion",
             "Mei"
         ],
-        "healer": [
+        "support": [
             "Brigitte"
         ]
     },
@@ -185,7 +185,7 @@ const heroesData = [
             "Mei",
             "Torbjorn"
         ],
-        "healer": [
+        "support": [
             "Ana",
             "Brigitte"
         ]
@@ -202,7 +202,7 @@ const heroesData = [
             "Pharah",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             ""
         ]
     },
@@ -221,7 +221,7 @@ const heroesData = [
             "Sombra",
             "Tracer"
         ],
-        "healer": [
+        "support": [
             "Kiriko"
         ]
     },
@@ -239,7 +239,7 @@ const heroesData = [
             "Tracer",
             "Sombra"
         ],
-        "healer": [
+        "support": [
             "Ana"
         ]
     },
@@ -255,7 +255,7 @@ const heroesData = [
             "Hanzo",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             "Ana"
         ]
     },
@@ -273,7 +273,7 @@ const heroesData = [
             "Soldier:76",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             "Ana",
             "Baptiste",
             "Moira"
@@ -290,7 +290,7 @@ const heroesData = [
             "Mei",
             "Sombra"
         ],
-        "healer": [
+        "support": [
             "Moira",
             "Brigitte"
         ]
@@ -307,7 +307,7 @@ const heroesData = [
             "Genji",
             "Sombra"
         ],
-        "healer": [
+        "support": [
             "Lucio",
             "Moira"
         ]
@@ -329,7 +329,7 @@ const heroesData = [
             "Sombra",
             "Tracer"
         ],
-        "healer": [
+        "support": [
             "Lucio"
         ]
     },
@@ -345,7 +345,7 @@ const heroesData = [
             "Reaper",
             "Tracer"
         ],
-        "healer": [
+        "support": [
             "Lifeweaver"
         ]
     },
@@ -362,7 +362,7 @@ const heroesData = [
             "Sombra",
             "Torbjorn"
         ],
-        "healer": [
+        "support": [
             "Baptiste",
             "Ana"
         ]
@@ -380,7 +380,7 @@ const heroesData = [
             "Widowmaker",
             "Echo"
         ],
-        "healer": [
+        "support": [
             "Ana"
         ]
     },
@@ -397,7 +397,7 @@ const heroesData = [
             "Tracer",
             "Sombra"
         ],
-        "healer": [
+        "support": [
             "Lucio"
         ]
     },
@@ -413,7 +413,7 @@ const heroesData = [
             "Widowmaker",
             "Reaper"
         ],
-        "healer": [
+        "support": [
             "Ana"
         ]
     },
@@ -428,7 +428,7 @@ const heroesData = [
             "Junkrat",
             "Mei"
         ],
-        "healer": [
+        "support": [
             "Kiriko",
             "Ana",
             "Brigite",
@@ -448,7 +448,7 @@ const heroesData = [
             "Tracer",
             "Reaper"
         ],
-        "healer": [
+        "support": [
             ""
         ]
     },
@@ -463,7 +463,7 @@ const heroesData = [
             "Pharah",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             "Ana"
         ]
     },
@@ -477,7 +477,7 @@ const heroesData = [
             "Pharah",
             "Sombra"
         ],
-        "healer": [
+        "support": [
             "Ana"
         ]
     },
@@ -492,7 +492,7 @@ const heroesData = [
             "Tracer",
             "Sombra"
         ],
-        "healer": [
+        "support": [
             ""
         ]
     },
@@ -509,7 +509,7 @@ const heroesData = [
             "Sombra",
             "Genji"
         ],
-        "healer": [
+        "support": [
             "Kiriko",
             "Lucio",
             "Moira"
@@ -529,7 +529,7 @@ const heroesData = [
             "Sombra",
             "Tracer"
         ],
-        "healer": [
+        "support": [
             "Lucio"
         ]
     },
@@ -544,7 +544,7 @@ const heroesData = [
             "Pharah",
             "Sombra"
         ],
-        "healer": [
+        "support": [
             ""
         ]
     },
@@ -558,7 +558,7 @@ const heroesData = [
             "Genji",
             "Sombra"
         ],
-        "healer": [
+        "support": [
             "Baptiste",
             "Lifeweaver",
             "Lucio"
@@ -578,7 +578,7 @@ const heroesData = [
             "Tracer",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             "Baptiste",
             "Moira"
         ]
@@ -594,7 +594,7 @@ const heroesData = [
             "Sombra",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             "Mercy",
             "Moira"
         ]
@@ -614,7 +614,7 @@ const heroesData = [
             "Torbjorn",
             "Mei"
         ],
-        "healer": [
+        "support": [
             "Moira"
         ]
     },
@@ -632,7 +632,7 @@ const heroesData = [
             "Tracer",
             "Soldier:76"
         ],
-        "healer": [
+        "support": [
             "Moira",
             "Baptiste"
         ]
@@ -651,7 +651,7 @@ const heroesData = [
             "Soldier:76",
             "Reaper"
         ],
-        "healer": [
+        "support": [
             "Ana",
             "Baptiste"
         ]
@@ -670,7 +670,7 @@ const heroesData = [
             "Tracer",
             "Widowmaker"
         ],
-        "healer": [
+        "support": [
             "Kiriko",
             "Zenyatta"
         ]

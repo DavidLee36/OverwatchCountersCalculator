@@ -9,21 +9,7 @@ const getCounters = (heroName, role) => {
     const hero = heroesData.find(hero => hero.hero === heroName);
 
     if(hero) {
-        //Push counters to countersList based on selected role
-        switch (role) {
-            case 'tank':
-                countersList.push(hero.tank);
-                break;
-            case 'damage':
-                countersList.push(hero.damage);
-                break;
-            case 'support':
-                countersList.push(hero.healer);
-                break;
-            default:
-                console.log('Error: role not defined');
-                break;
-        }
+        countersList.push(hero[role]);
     }else {
         console.log(`${heroName} not found`);
     }
@@ -52,6 +38,36 @@ const calculateOccurences = (charactersList) => {
     return sortedCharacters;
 }
 
+//Adjust counters list to account for the fact that a suggested counter
+//might be countered by an enemy
+const getAntiCounters = (countersObj, enemyTeam) => {
+    let countersArray = Object.entries(countersObj); // Convert countersObj into key-value pair array
+
+    // Adjust counters based on anti-counters
+    countersArray = countersArray.map(([counter, count]) => {
+        const counterObj = heroesData.find(hero => hero.hero === counter); // Retrieve counter object from heroesData
+        
+        // For each enemy hero, check if they appear on the suggested counter's counter list
+        enemyTeam.forEach(enemy => {
+            if(counterObj.tank.includes(enemy) || counterObj.damage.includes(enemy) || counterObj.support.includes(enemy)) {
+                count--;
+            }
+        });
+        return [counter, count];
+    }).filter(([_, count]) => count > 0); //Filter out counters with a score of 0 or less
+
+    // Sort the array by count in descending order
+    countersArray.sort((a, b) => b[1] - a[1]);
+
+    // Convert the sorted array back into an object
+    const sortedCountersObj = countersArray.reduce((obj, [counter, count]) => {
+        obj[counter] = count;
+        return obj;
+    }, {});
+
+    return sortedCountersObj;
+}
+
 const getTopFive = (countersObj) => {
     const items = Object.entries(countersObj);
     return items.slice(0,5);
@@ -64,7 +80,11 @@ const retrieveCountersDriver = (role, characters) => {
     
     const counters = calculateOccurences(countersList);
     console.log('all counters: ', counters);
-    const topFive = getTopFive(counters);
+
+    const antiCounters = getAntiCounters(counters, characters, role);
+    console.log('with anti counters: ', antiCounters);
+
+    const topFive = getTopFive(antiCounters);
     //const topFiveNames = topFive.map(i => i[0]);
 
     return topFive;

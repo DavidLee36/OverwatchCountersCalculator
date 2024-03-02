@@ -130,7 +130,7 @@ h3 {
 }
 
 .display-counters {
-    padding-top: 2rem;
+    padding-block: 2rem;
 }
 
 .no-show {
@@ -182,4 +182,14 @@ h3 {
 
 .please-select {
     border: 3px solid rgba(209, 47, 47, 0.658) !important;
+}
+
+footer {
+    font-size: 1.2rem;
+    justify-self: end;
+    text-align: center;
+}
+
+footer a {
+    color: #ff9c00;
 }

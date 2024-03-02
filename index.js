@@ -80,3 +80,15 @@ const displayCounters = (counters) => {
     </div>
     `;
 }
+
+const imgHeroNames = ["ana", "ashe", "baptiste", "bastion", "brigitte", "cassidy", "dva", "doomfist", "echo", "genji", "hanzo", "junkrat", "lucio", "mei", "mercy", "moira", "orisa", "pharah", "reaper", "reinhardt", "roadhog", "sigma", "soldier-76", "sombra", "symmetra", "torbjorn", "tracer", "widowmaker", "winston", "wrecking-ball", "zarya", "zenyatta"];
+
+const preloadHeroImages = () => {
+    imgHeroNames.forEach(heroName => {
+        const src = `./assets/hero_icons/${heroName}.png`;
+        const img = new Image();
+        img.src = src;
+    });
+}
+
+document.addEventListener('DOMContentLoaded', preloadHeroImages);

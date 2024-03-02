@@ -431,7 +431,7 @@ const heroesData = [
         "support": [
             "Kiriko",
             "Ana",
-            "Brigite",
+            "Brigitte",
             "Moira"
         ]
     },
@@ -541,8 +541,7 @@ const heroesData = [
         "damage": [
             "Ashe",
             "Junkrat",
-            "Pharah",
-            "Sombra"
+            "Pharah"
         ],
         "support": [
             ""

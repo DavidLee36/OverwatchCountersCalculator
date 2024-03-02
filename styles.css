@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+body {
+    /* Define the gradient with more muted colors */
+    background: linear-gradient(135deg, #ff9c00 0%, #0072ff 50%, #0e0e0e 100%);
+
+    /* Adjusted colors for a more muted palette */
+    background: linear-gradient(135deg, #b07d62 0%, #4a6d8f 50%, #333333 100%);
+
+    /* Ensure the gradient covers the full page */
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* Other styles for a full-page gradient */
+    margin: 0;
+    height: 100vh;
+    color: #e0e0e0;
+    /* Light grey text for better contrast */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Teko', sans-serif;
+}
+
+.heading {
+    width: fit-content;
+    text-align: center;
+}
+
+.select-comp {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.cards-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.hero-card {
+    width: 10rem;
+    border: 3px solid rgb(48, 48, 48);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-bottom: 1rem;
+}
+
+.hero-card img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(48, 48, 48);
+}
+
+.select-group {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-inline: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 4px 4px 25px black;
+}
+
+.group-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2.5rem;
+    margin-block: 1rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-block: 1rem;
+}
+
+label {
+    letter-spacing: .05rem;
+    font-size: 1.3rem;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    font-size: .8rem;
+}
+
+option {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.button-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.calculate {
+    margin-block: 2rem;
+}
+
+.btn-style {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: .1rem;
+    border: none;
+    transition: ease all 0.3s;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px black;
+}
+
+.btn-style:hover {
+    transform: scale(1.02);
+}
+
+.calculate:active {
+    transform: scale(.98);
+}
+
+h3 {
+    margin: 0;
+}
+
+.display-counters {
+    padding-top: 2rem;
+}
+
+.no-show {
+    display: none;
+}
+
+.role-select-wrapper {
+    position: relative;
+    height: fit-content;
+    margin-block: 2rem;
+    width: 11rem;
+    transition: all 0s !important;
+}
+
+.select-role {
+    appearance: none;
+    -webkit-appearance: none;
+    width: fit-content;
+    width: 100%;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: .1rem;
+    padding-inline: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.select-role:focus {
+    border: none;
+    outline: none;
+}
+
+.role-select-wrapper::before,
+.role-select-wrapper::after {
+  --size: 0.8rem;
+  content: "";
+  position: absolute;
+  right: 1rem;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.role-select-wrapper::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid #e0e0e0;
+  top: 45%;
+}
+
+.please-select {
+    border: 3px solid rgba(209, 47, 47, 0.658) !important;
+}

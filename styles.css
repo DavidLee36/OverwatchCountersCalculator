@@ -89,6 +89,7 @@ select {
     background-color: transparent;
     color: white;
     font-size: .8rem;
+    cursor: pointer;
 }
 
 option {

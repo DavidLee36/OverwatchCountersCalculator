@@ -140,7 +140,7 @@ const heroesData = [
             "Reaper",
             "Sombra",
             "Tracer",
-            "Widomaker"
+            "Widowmaker"
         ],
         "support": [
             "Ana"

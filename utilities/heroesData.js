@@ -96,7 +96,6 @@ const heroesData = [
             "Mauga",
             "Orisa",
             "D.Va",
-            "Symmetra",
             "Roadhog"
         ],
         "damage": [

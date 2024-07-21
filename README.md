@@ -33,7 +33,7 @@ The Overwatch 2 Counter Picks Calculator is designed to help players make inform
 
 - Add a page which shows an icon for each Overwatch hero, clicking on a hero then highlights all recommended counters for that one hero.
 
-- The biggest improvement I would like to make is to the collection of data, most of the data for this project is gathered from [ggrecon.com](https://www.ggrecon.com/guides/overwatch-2-counter-list-all-heroes/) and independant research. However, I would like to create a google form where players can input their opinions on best counters. This would help create a wide range of opinions and help garner a more accurate and up to date list of hero counters.
+- The biggest improvement I would like to make is to the collection of data, most of the data for this project is gathered from [ggrecon.com](https://www.ggrecon.com/guides/overwatch-2-counter-list-all-heroes/) and independant research. However, I would like to create a google form where players can input their opinions on best counters. This would help create a wide range of opinions and help garner a more accurate and up to date list of hero counters. if you would like to fill out this google form and contribute to the data being analyzed in the future update you can fill it out [here](https://forms.gle/VznpiG42mV7sHtKo8)
 
 ## Disclaimer
 

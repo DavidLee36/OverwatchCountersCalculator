@@ -49,7 +49,7 @@ const getAntiCounters = (countersObj, enemyTeam) => {
         
         // For each enemy hero, check if they appear on the suggested counter's counter list
         enemyTeam.forEach(enemy => {
-            if(counterObj.tank.includes(enemy) || counterObj.damage.includes(enemy) || counterObj.support.includes(enemy)) {
+            if((counterObj.tank.includes(enemy) || counterObj.damage.includes(enemy) || counterObj.support.includes(enemy)) && enemy) {
                 count--;
             }
         });

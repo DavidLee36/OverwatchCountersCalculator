@@ -425,7 +425,8 @@ const heroesData = [
         "damage": [
             "Pharah",
             "Junkrat",
-            "Mei"
+            "Mei",
+            "Venture"
         ],
         "support": [
             "Kiriko",
@@ -481,6 +482,20 @@ const heroesData = [
         ]
     },
     {
+        "hero": "Venture",
+        "tank": [
+            "D.Va"
+        ],
+        "damage": [
+            "Pharah",
+            "Soldier:76"
+        ],
+        "support": [
+            "Ana",
+            "Baptiste"
+        ]
+    },
+    {
         "hero": "Widowmaker",
         "tank": [
             "D.Va",
@@ -489,7 +504,8 @@ const heroesData = [
         "damage": [
             "Genji",
             "Tracer",
-            "Sombra"
+            "Sombra",
+            "Venture"
         ],
         "support": [
             ""
@@ -666,7 +682,8 @@ const heroesData = [
             "Pharah",
             "Reaper",
             "Tracer",
-            "Widowmaker"
+            "Widowmaker",
+            "Venture"
         ],
         "support": [
             "Kiriko",

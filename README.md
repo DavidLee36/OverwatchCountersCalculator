@@ -37,7 +37,7 @@ The Overwatch 2 Counter Picks Calculator is designed to help players make inform
 
 ## Disclaimer
 
-This project is not open source and is not free to use without permission. For inquiries about usage, contributions, or collaborations, please feel free to contact me via email @ david303lee@gmail.com.
+This project is open source, however, I do ask that if you use this project or my code in any capacity, that I be credited, thank you. For inquiries about usage, contributions, or collaborations, please feel free to contact me via email @ david303lee@gmail.com.
 
 ## Acknowledgments
 

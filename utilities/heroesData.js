@@ -329,7 +329,8 @@ const heroesData = [
             "Tracer"
         ],
         "support": [
-            "Lucio"
+            "Lucio",
+            "Juno"
         ]
     },
     {
@@ -576,6 +577,24 @@ const heroesData = [
             "Baptiste",
             "Lifeweaver",
             "Lucio"
+        ]
+    },
+    {
+        "hero": "Juno",
+        "tank": [
+            "Winston",
+            "D.Va",
+            "Wrecking Ball",
+            "Doomfist"
+        ],
+        "damage": [
+            "Ashe",
+            "Sombra",
+            "Soldier:76",
+            "Cassidy"
+        ],
+        "support": [
+            "Ana"
         ]
     },
     {

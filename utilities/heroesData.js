@@ -20,7 +20,8 @@ const heroesData = [
     {
         "hero": "Doomfist",
         "tank": [
-            "Roadhog"
+            "Roadhog",
+            "Orisa"
         ],
         "damage": [
             "Ashe",
@@ -30,13 +31,15 @@ const heroesData = [
         ],
         "support": [
             "Ana",
-            "Brigitte"
+            "Brigitte",
+            "Mizuki"
         ]
     },
     {
         "hero": "Junker Queen",
         "tank": [
-            ""
+            "Roadhog",
+            "Mauga"
         ],
         "damage": [
             "Ashe",
@@ -111,7 +114,9 @@ const heroesData = [
     {
         "hero": "Reinhardt",
         "tank": [
-            ""
+            "Mauga",
+            "Orisa",
+            "Sigma"
         ],
         "damage": [
             "Junkrat",
@@ -129,7 +134,8 @@ const heroesData = [
     {
         "hero": "Roadhog",
         "tank": [
-            ""
+            "D.Va",
+            "Winston"
         ],
         "damage": [
             "Genji",
@@ -139,7 +145,8 @@ const heroesData = [
             "Reaper",
             "Sombra",
             "Tracer",
-            "Widowmaker"
+            "Widowmaker",
+            "Freja"
         ],
         "support": [
             "Ana"
@@ -202,7 +209,8 @@ const heroesData = [
             "Widowmaker"
         ],
         "support": [
-            ""
+            "Ana",
+            "Baptiste"
         ]
     },
     {
@@ -236,7 +244,8 @@ const heroesData = [
             "Pharah",
             "Genji",
             "Tracer",
-            "Sombra"
+            "Sombra",
+            "Freja"
         ],
         "support": [
             "Ana"
@@ -245,7 +254,8 @@ const heroesData = [
     {
         "hero": "Cassidy",
         "tank": [
-            ""
+            "Doomfist",
+            "Winston"
         ],
         "damage": [
             "Ashe",
@@ -270,7 +280,8 @@ const heroesData = [
             "Ashe",
             "Cassidy",
             "Soldier:76",
-            "Widowmaker"
+            "Widowmaker",
+            "Sierra"
         ],
         "support": [
             "Ana",
@@ -291,7 +302,8 @@ const heroesData = [
         ],
         "support": [
             "Moira",
-            "Brigitte"
+            "Brigitte",
+            "Wuyang"
         ]
     },
     {
@@ -336,7 +348,8 @@ const heroesData = [
     {
         "hero": "Mei",
         "tank": [
-            ""
+            "Doomfist",
+            "Wrecking Ball"
         ],
         "damage": [
             "Sombra",
@@ -360,7 +373,8 @@ const heroesData = [
             "Ashe",
             "Widowmaker",
             "Sombra",
-            "Torbjorn"
+            "Torbjorn",
+            "Sierra"
         ],
         "support": [
             "Baptiste",
@@ -433,7 +447,8 @@ const heroesData = [
             "Kiriko",
             "Ana",
             "Brigitte",
-            "Moira"
+            "Moira",
+            "Wuyang"
         ]
     },
     {
@@ -450,19 +465,21 @@ const heroesData = [
             "Reaper"
         ],
         "support": [
-            ""
+            "Lucio"
         ]
     },
     {
         "hero": "Torbjorn",
         "tank": [
-            ""
+            "D.Va",
+            "Winston"
         ],
         "damage": [
             "Bastion",
             "Junkrat",
             "Pharah",
-            "Widowmaker"
+            "Widowmaker",
+            "Freja"
         ],
         "support": [
             "Ana"
@@ -471,7 +488,8 @@ const heroesData = [
     {
         "hero": "Tracer",
         "tank": [
-            ""
+            "Winston",
+            "D.Va"
         ],
         "damage": [
             "Junkrat",
@@ -479,7 +497,9 @@ const heroesData = [
             "Sombra"
         ],
         "support": [
-            "Ana"
+            "Ana",
+            "Brigitte",
+            "Wuyang"
         ]
     },
     {
@@ -500,7 +520,8 @@ const heroesData = [
         "hero": "Widowmaker",
         "tank": [
             "D.Va",
-            "Winston"
+            "Winston",
+            "Hazard"
         ],
         "damage": [
             "Genji",
@@ -509,7 +530,7 @@ const heroesData = [
             "Venture"
         ],
         "support": [
-            ""
+            "Kiriko"
         ]
     },
     {
@@ -523,7 +544,8 @@ const heroesData = [
             "Pharah",
             "Tracer",
             "Sombra",
-            "Genji"
+            "Genji",
+            "Vendetta"
         ],
         "support": [
             "Kiriko",
@@ -552,15 +574,16 @@ const heroesData = [
     {
         "hero": "Brigitte",
         "tank": [
-            ""
+            "Doomfist"
         ],
         "damage": [
             "Ashe",
             "Junkrat",
-            "Pharah"
+            "Pharah",
+            "Widowmaker"
         ],
         "support": [
-            ""
+            "Ana"
         ]
     },
     {
@@ -625,7 +648,9 @@ const heroesData = [
         ],
         "damage": [
             "Sombra",
-            "Widowmaker"
+            "Widowmaker",
+            "Tracer",
+            "Vendetta"
         ],
         "support": [
             "Mercy",
@@ -663,7 +688,10 @@ const heroesData = [
             "Cassidy",
             "Genji",
             "Tracer",
-            "Soldier:76"
+            "Soldier:76",
+            "Sombra",
+            "Vendetta",
+            "Sierra"
         ],
         "support": [
             "Moira",
@@ -693,7 +721,8 @@ const heroesData = [
         "hero": "Zenyatta",
         "tank": [
             "D.Va",
-            "Sigma"
+            "Sigma",
+            "Winston"
         ],
         "damage": [
             "Echo",
@@ -702,11 +731,196 @@ const heroesData = [
             "Reaper",
             "Tracer",
             "Widowmaker",
-            "Venture"
+            "Venture",
+            "Vendetta"
         ],
         "support": [
             "Kiriko",
+            "Brigitte"
+        ]
+    },
+    {
+        "hero": "Hazard",
+        "tank": [
+            "Reinhardt",
+            "Zarya",
+            "Roadhog"
+        ],
+        "damage": [
+            "Echo",
+            "Ashe",
+            "Soldier:76",
+            "Pharah"
+        ],
+        "support": [
+            "Ana",
             "Zenyatta"
+        ]
+    },
+    {
+        "hero": "Domina",
+        "tank": [
+            "Winston",
+            "Doomfist",
+            "Wrecking Ball"
+        ],
+        "damage": [
+            "Reaper",
+            "Sombra",
+            "Tracer"
+        ],
+        "support": [
+            "Moira",
+            "Lucio"
+        ]
+    },
+    {
+        "hero": "Freja",
+        "tank": [
+            "D.Va",
+            "Doomfist",
+            "Winston"
+        ],
+        "damage": [
+            "Widowmaker",
+            "Genji",
+            "Sombra",
+            "Tracer",
+            "Cassidy"
+        ],
+        "support": [
+            "Ana"
+        ]
+    },
+    {
+        "hero": "Anran",
+        "tank": [
+            "Zarya",
+            "D.Va"
+        ],
+        "damage": [
+            "Reaper",
+            "Widowmaker",
+            "Mei",
+            "Pharah",
+            "Sombra"
+        ],
+        "support": [
+            "Moira",
+            "Kiriko",
+            "Ana"
+        ]
+    },
+    {
+        "hero": "Emre",
+        "tank": [
+            "Hazard",
+            "Zarya",
+            "Domina"
+        ],
+        "damage": [
+            "Sombra",
+            "Tracer",
+            "Genji"
+        ],
+        "support": [
+            "Wuyang"
+        ]
+    },
+    {
+        "hero": "Vendetta",
+        "tank": [
+            "Roadhog",
+            "Sigma",
+            "Orisa"
+        ],
+        "damage": [
+            "Pharah",
+            "Echo",
+            "Widowmaker",
+            "Ashe",
+            "Soldier:76",
+            "Cassidy"
+        ],
+        "support": [
+            "Ana",
+            "Brigitte",
+            "Kiriko"
+        ]
+    },
+    {
+        "hero": "Sierra",
+        "tank": [
+            "D.Va",
+            "Sigma",
+            "Zarya",
+            "Reinhardt"
+        ],
+        "damage": [
+            "Cassidy",
+            "Soldier:76",
+            "Genji",
+            "Tracer"
+        ],
+        "support": [
+            "Moira",
+            "Kiriko"
+        ]
+    },
+    {
+        "hero": "Wuyang",
+        "tank": [
+            "D.Va",
+            "Winston",
+            "Doomfist"
+        ],
+        "damage": [
+            "Genji",
+            "Venture",
+            "Sombra",
+            "Tracer"
+        ],
+        "support": [
+            "Ana",
+            "Brigitte",
+            "Moira"
+        ]
+    },
+    {
+        "hero": "Mizuki",
+        "tank": [
+            "Reinhardt",
+            "Winston"
+        ],
+        "damage": [
+            "Junkrat",
+            "Pharah",
+            "Sojourn",
+            "Widowmaker"
+        ],
+        "support": [
+            "Zenyatta",
+            "Ana"
+        ]
+    },
+    {
+        "hero": "Jetpack Cat",
+        "tank": [
+            "D.Va",
+            "Winston"
+        ],
+        "damage": [
+            "Soldier:76",
+            "Cassidy",
+            "Ashe",
+            "Widowmaker",
+            "Sojourn",
+            "Sombra"
+        ],
+        "support": [
+            "Ana",
+            "Baptiste",
+            "Illari"
         ]
     }
 ]

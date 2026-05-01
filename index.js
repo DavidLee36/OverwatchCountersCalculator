@@ -81,7 +81,7 @@ const displayCounters = (counters) => {
     `;
 }
 
-const imgHeroNames = ["ana", "ashe", "baptiste", "bastion", "brigitte", "cassidy", "dva", "doomfist", "echo", "genji", "hanzo", "illari", "junker-queen", "junkrat", "kiriko", "lifeweaver", "lucio", "mauga", "mei", "mercy", "moira", "orisa", "pharah", "ramattra", "reaper", "reinhardt", "roadhog", "sigma", "soldier-76", "sombra", "symmetra", "torbjorn", "tracer", "widowmaker", "winston", "wrecking-ball", "zarya", "zenyatta"];
+const imgHeroNames = ["ana", "anran", "ashe", "baptiste", "bastion", "brigitte", "cassidy", "domina", "doomfist", "dva", "echo", "emre", "freja", "genji", "hanzo", "hazard", "illari", "jetpack-cat", "junker-queen", "junkrat", "juno", "kiriko", "lifeweaver", "lucio", "mauga", "mei", "mercy", "mizuki", "moira", "orisa", "pharah", "ramattra", "reaper", "reinhardt", "roadhog", "sierra", "sigma", "sojourn", "soldier-76", "sombra", "symmetra", "torbjorn", "tracer", "vendetta", "venture", "widowmaker", "winston", "wrecking-ball", "wuyang", "zarya", "zenyatta"];
 
 const preloadHeroImages = () => {
     imgHeroNames.forEach(heroName => {

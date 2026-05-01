@@ -13,6 +13,7 @@ body {
 
     /* Other styles for a full-page gradient */
     margin: 0;
+	padding: 0;
     height: 100vh;
     color: #e0e0e0;
     /* Light grey text for better contrast */
@@ -22,6 +23,7 @@ body {
     align-items: center;
 
     font-family: 'Teko', sans-serif;
+	height: 100vh;
 }
 
 .heading {
@@ -189,6 +191,7 @@ footer {
     font-size: 1.2rem;
     justify-self: end;
     text-align: center;
+	margin-top: auto;
 }
 
 footer a {
